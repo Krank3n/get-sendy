@@ -33,14 +33,14 @@ function HeroForm() {
     >
       <CCard className="m-3 card-mw p-sm-4 p-2">
         <CCardBody>
-          <p>
+          <div>
             <span>Yo!</span>
             {' '}
             <CFormInput
               className="d-inline-block input-mw m-2"
               placeholder="Friend's name"
-              minlength="10"
-              maxlength="20"
+              minLength="2"
+              maxLength="20"
               aria-label="Friend's name"
               type="text"
               feedbackValid="Looks good!"
@@ -48,7 +48,7 @@ function HeroForm() {
               required
             />
             <span>,</span>
-          </p>
+          </div>
           <div className="d-inline">
             <span>It&apos;s</span>
             {' '}
