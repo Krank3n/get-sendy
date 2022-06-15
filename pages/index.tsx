@@ -1,10 +1,6 @@
 import React from 'react';
-import {
-  CImage,
-} from '@coreui/react';
 
 import Head from 'next/head';
-import HeroForm from '../components/HeroForm';
 import styles from '../styles/Home.module.scss';
 import BlogPosts from '../components/BlogPosts';
 
@@ -14,6 +10,7 @@ import Link from 'next/link';
 // Import the generated Lists API and types from Keystone
 import { query } from '.keystone/api';
 import { Lists } from '.keystone/types';
+import AiForm from "../components/AiForm";
 
 type Post = {
   id: string;
@@ -33,18 +30,7 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
           </Head>
 
           <main className={styles.main}>
-            <div className="d-flex flex-row-reverse m-5">
-              <CImage className={styles.hero} src="/SkiierUpsideDown.svg" />
-              <h2 className={styles.title}>
-                <span className="small">Be Accountable &</span>
-                <br />
-                <span>Get that back flip!</span>
-              </h2>
-            </div>
-            <div className="align-items-center">
-              <HeroForm />
-            </div>
-
+            <AiForm />
           </main>
 
           <footer className={styles.footer}>
@@ -57,20 +43,20 @@ export default function Home({ posts }: InferGetStaticPropsType<typeof getStatic
             </p>
           </footer>
         </div>
-        <main style={{ margin: '3rem' }}>
+        {/*<main style={{ margin: '3rem' }}>*/}
 
-          <h1>Hello World! 👋🏻 </h1>
-          <ul>
-            {/* Render each post with a link to the content page */}
-            {posts.map(post => (
-                <li key={post.id}>
-                  <Link href={`/post/${post.slug}`}>
-                    <a>{post.title}</a>
-                  </Link>
-                </li>
-            ))}
-          </ul>
-        </main>
+        {/*  <h1>Hello World! 👋🏻 </h1>*/}
+        {/*  <ul>*/}
+        {/*    /!* Render each post with a link to the content page *!/*/}
+        {/*    {posts.map(post => (*/}
+        {/*        <li key={post.id}>*/}
+        {/*          <Link href={`/post/${post.slug}`}>*/}
+        {/*            <a>{post.title}</a>*/}
+        {/*          </Link>*/}
+        {/*        </li>*/}
+        {/*    ))}*/}
+        {/*  </ul>*/}
+        {/*</main>*/}
       </div>
   );
 }
