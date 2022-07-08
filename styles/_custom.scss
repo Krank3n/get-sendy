@@ -157,7 +157,31 @@ a {
 .fade-in {
   animation: fadeIn 1.5s ease-in-out;
 }
+
+.height-fade {
+  animation: heightFade 2.5s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+  transition: all 1.5s ease-in-out;
+}
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+.brain-chosen-text {
+  text-align: center;
+  font-size: 3em;
+  letter-spacing: 2px;
+  font-family: 'Press Start 2P';
+  font-weight: 400;
+  margin: 0;
+  line-height: 0;
+}
+
+.c-gray-700 {
+  color: $gray-700;
 }

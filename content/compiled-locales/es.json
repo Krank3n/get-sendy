@@ -1,0 +1,74 @@
+{
+  "getSendy.homepage.CHECKIT": [
+    {
+      "type": 0,
+      "value": "Compruebalo >"
+    }
+  ],
+  "getSendy.homepage.ENTERANINTEREST": [
+    {
+      "type": 0,
+      "value": "Introduce un interés"
+    }
+  ],
+  "getSendy.homepage.MOREOPTIONS": [
+    {
+      "type": 0,
+      "value": "Más opciones"
+    }
+  ],
+  "getSendy.homepage.SHOWLESS": [
+    {
+      "type": 0,
+      "value": "Ver menos"
+    }
+  ],
+  "getSendy.homepage.TELLME": [
+    {
+      "type": 0,
+      "value": "Dímelo"
+    }
+  ],
+  "getSendy.homepage.WHATEXCITESYOU": [
+    {
+      "type": 0,
+      "value": "¿Qué te excita?"
+    }
+  ],
+  "getSendy.homepage.YOUSEEKPURPOSE": [
+    {
+      "type": 0,
+      "value": "Buscas propósito..."
+    }
+  ],
+  "getSendy.suggestions.ANNOYINGMYSISTER": [
+    {
+      "type": 0,
+      "value": "molestar a mi hermana"
+    }
+  ],
+  "getSendy.suggestions.BACON": [
+    {
+      "type": 0,
+      "value": "tocino"
+    }
+  ],
+  "getSendy.suggestions.GOINGTONEWCAFES": [
+    {
+      "type": 0,
+      "value": "ir a nuevos cafés"
+    }
+  ],
+  "getSendy.suggestions.PLAYINGWITHMYPETKITTEN": [
+    {
+      "type": 0,
+      "value": "jugar con mi gatito de mascota"
+    }
+  ],
+  "getSendy.suggestions.SUGGESTIONS": [
+    {
+      "type": 0,
+      "value": "Sugerencias"
+    }
+  ]
+}

@@ -12,11 +12,18 @@ const Post: Lists.Post = list({
     },
 });
 
+const User: Lists.User = list({
+    fields: {
+        name: text({ validation: { isRequired: true } }),
+        email: text({ validation: { isRequired: true }, isIndexed: 'unique' }),
+    },
+});
+
 export default config({
     db: { provider: 'sqlite', url: 'file:./app.db' },
     experimental: {
         generateNextGraphqlAPI: true,
         generateNodeAPI: true,
     },
-    lists: { Post },
+    lists: { Post, User },
 });

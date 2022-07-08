@@ -13,7 +13,7 @@ export default async function (req, res) {
     frequency_penalty: 1,
     presence_penalty: 1,
     prompt: generatePrompt(req.body.hobby, req.body.difficulty, req.body.purpose),
-    temperature: 0.7,
+    temperature: 1,
   });
   res.status(200).json({ result: completion.data.choices[0].text });
 }
@@ -22,7 +22,7 @@ function generatePrompt(hobby, difficulty, purpose) {
   const capitalizedHobby = hobby[0].toUpperCase() + hobby.slice(1).toLowerCase();
   const capitalizedPurpose = purpose.toUpperCase() + purpose.slice(1).toLowerCase();
   const capitalizedDifficulty = difficulty.toUpperCase() + difficulty.slice(1).toLowerCase();
-  return `Give me 5 difficulty ${difficulty === 'ridiculous' ? '' : 'achievable'} hobby goals.
+  return `Give me 5 difficulty ${difficulty === 'ridiculous' ? '' : 'achievable quantifiable'} hobby goals.
     Hobby: Skiing
     Goals: goals
     Difficulty: Hard

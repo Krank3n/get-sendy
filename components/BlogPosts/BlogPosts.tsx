@@ -3,7 +3,6 @@
 import { InferGetStaticPropsType } from 'next';
 import Link from 'next/link';
 
-// Import the generated Lists API and types from Keystone
 import { query } from '.keystone/api';
 import { Lists } from '.keystone/types';
 
@@ -13,14 +12,11 @@ type Post = {
     slug: string;
 };
 
-// Home receives a `post` prop from `getStaticProps` below
 export default function BlogPosts({ posts }: InferGetStaticPropsType<typeof getStaticProps>) {
     return (
         <div>
             <main style={{ margin: '3rem' }}>
-                <h1>Hello World! 👋🏻 </h1>
                 <ul>
-                    {/* Render each post with a link to the content page */}
                     {posts.map(post => (
                         <li key={post.id}>
                             <Link href={`/post/${post.slug}`}>
