@@ -1,0 +1,15 @@
+.main .result {
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.hero {
+    margin-bottom: 1rem;
+    animation: mover 1.5s infinite ease-in-out alternate;
+}
+
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+

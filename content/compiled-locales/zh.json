@@ -1,0 +1,74 @@
+{
+  "getSendy.homepage.CHECKIT": [
+    {
+      "type": 0,
+      "value": "检查 >"
+    }
+  ],
+  "getSendy.homepage.ENTERANINTEREST": [
+    {
+      "type": 0,
+      "value": "输入兴趣"
+    }
+  ],
+  "getSendy.homepage.MOREOPTIONS": [
+    {
+      "type": 0,
+      "value": "更多选项"
+    }
+  ],
+  "getSendy.homepage.SHOWLESS": [
+    {
+      "type": 0,
+      "value": "显示较少"
+    }
+  ],
+  "getSendy.homepage.TELLME": [
+    {
+      "type": 0,
+      "value": "告诉我"
+    }
+  ],
+  "getSendy.homepage.WHATEXCITESYOU": [
+    {
+      "type": 0,
+      "value": "什么让你兴奋？"
+    }
+  ],
+  "getSendy.homepage.YOUSEEKPURPOSE": [
+    {
+      "type": 0,
+      "value": "你寻求目的..."
+    }
+  ],
+  "getSendy.suggestions.ANNOYINGMYSISTER": [
+    {
+      "type": 0,
+      "value": "惹我妹妹生气"
+    }
+  ],
+  "getSendy.suggestions.BACON": [
+    {
+      "type": 0,
+      "value": "培根"
+    }
+  ],
+  "getSendy.suggestions.GOINGTONEWCAFES": [
+    {
+      "type": 0,
+      "value": "去新的咖啡馆"
+    }
+  ],
+  "getSendy.suggestions.PLAYINGWITHMYPETKITTEN": [
+    {
+      "type": 0,
+      "value": "和我的宠物小猫玩耍"
+    }
+  ],
+  "getSendy.suggestions.SUGGESTIONS": [
+    {
+      "type": 0,
+      "value": "Suggestions"
+    }
+  ]
+}
